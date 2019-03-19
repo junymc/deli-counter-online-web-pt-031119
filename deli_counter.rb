@@ -7,6 +7,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       puts current_line << "#{index + 1}. #{name}"
     end
-    puts current_line.join(" ")
+    puts current_line.join(' ')
   end
 end
