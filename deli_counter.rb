@@ -8,4 +8,5 @@ def line(katz_deli)
       puts current_line << "#{index + 1}. #{name}"
     end
   end
+  current_line.join(" ")
 end
